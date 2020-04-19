@@ -30,7 +30,7 @@
     .copy {
       position: fixed;
       top: 25px;
-      margin-top:25px;
+      margin-top:-25px;
       border:solid;
       border-width:5px;
       border-color:black;
@@ -45,6 +45,7 @@
 <body>
   <div class="copy">Send your URL to a friend to start a video call</div>
   <video id="localVideo" autoplay muted></video>
+  <video id="remoteVideo" autoplay></video>
   <video id="remoteVideo" autoplay></video>
   <script src="script.js"></script>
 </body>
