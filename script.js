@@ -2,6 +2,7 @@
 if (!location.hash) {
   location.hash = Math.floor(Math.random() * 0xFFFFFF).toString(16);
 }
+alert location.href;
 const roomHash = location.hash.substring(1);
 
 // TODO: Replace with your own channel ID
